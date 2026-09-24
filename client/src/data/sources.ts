@@ -43,7 +43,6 @@ export const moduleSources: Record<string, ModuleSource[]> = {
     { title: "The Buddhist Society — Jodo Shinshu", url: "https://www.thebuddhistsociety.org/page/jodo-shinshu/" },
     { title: "Rubin Museum — Vajrayana", url: "https://rubinmuseum.org/projecthimalayanart/essays/amulet-box-gau-with-its-contents/" },
   ],
-,
   "12": [
     { title: "AN 10.54 — Samatha e Vipassanā", url: "https://www.accesstoinsight.org/tipitaka/an/an10/an10.054.than.html" },
     { title: "NCCIH — Meditação e segurança", url: "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety", note: "Limites clínicos" },

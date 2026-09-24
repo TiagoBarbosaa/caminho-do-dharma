@@ -320,7 +320,6 @@ export const modules: Module[] = [
         "Escolha uma escola. Compare uma fonte institucional e uma acadêmica quanto a texto, prática, mestre, objetivo e interpretação de libertação. Não pratique técnicas esotéricas sem orientação.",
     },
   },
-,
   {
     number: "12",
     level: "Intermediário",

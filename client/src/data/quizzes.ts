@@ -324,7 +324,6 @@ export const moduleQuizzes: Record<string, QuizQuestion[]> = {
         "Ambas são famílias ricas e internas (várias linhagens). Compará-las exige fontes próprias de cada uma.",
     },
   ],
-,
   "12": [
     {
       question: "Os cinco obstáculos, neste guia, são melhor entendidos como…",

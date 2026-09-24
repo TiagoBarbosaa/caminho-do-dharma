@@ -25,18 +25,17 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-          cache: npm
 
       - name: Install
-        run: npm install --legacy-peer-deps
+        run: |
+          rm -f package-lock.json
+          npm install --legacy-peer-deps --no-fund --no-audit
 
       - name: Build
         env:
-          # Project site: https://USER.github.io/REPO/
           VITE_BASE: /${{ github.event.repository.name }}/
         run: npm run build
 
-      # SPA no GitHub Pages: 404.html = index.html
       - name: SPA fallback
         run: cp dist/public/index.html dist/public/404.html
 
